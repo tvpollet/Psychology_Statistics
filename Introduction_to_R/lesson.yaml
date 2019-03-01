@@ -244,18 +244,19 @@
 - Class: text
   Output: "Alright! That's about everything! I will frequently say take function X() and pass it three arguments, so you will want to make sure you understand what I'm saying!"
 
-#47
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
 
-#48
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint
+#As of March 1, 2019, I have disabled these questions in a final hope to fix this unknown bug.
+#- Class: mult_question
+#  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
+#  AnswerChoices: Yes;No
+#  CorrectAnswer: NULL
+#  AnswerTests: submit_log()
+ # Hint: hint
+
+#- Class: mult_question
+#  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
+#  AnswerChoices: Yes;No
+#  CorrectAnswer: NULL
+#  AnswerTests: submit_log_two()
+#  Hint: hint
+

@@ -187,16 +187,19 @@
 - Class: text
   Output: "And we can reject the null hypothesis that this set of die falls into the distribution we expect. It seems someone has cheated these die!"
 
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
 
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint
+#As of March 1, 2019, I have disabled these questions in a final hope to fix this unknown bug.
+#- Class: mult_question
+#  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
+#  AnswerChoices: Yes;No
+#  CorrectAnswer: NULL
+#  AnswerTests: submit_log()
+ # Hint: hint
+
+#- Class: mult_question
+#  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
+#  AnswerChoices: Yes;No
+#  CorrectAnswer: NULL
+#  AnswerTests: submit_log_two()
+#  Hint: hint
+

@@ -226,16 +226,18 @@
 - Class: text
   Output: Exactly! Even visually it's much easier to see a difference in the lower standard deviations. In the high standard deviations, even though the means (averages) might be different, the variation is so high, we are not going to find differences. 
 
-- Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log()
-  Hint: hint
 
-- Class: mult_question
-  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
-  AnswerChoices: Yes;No
-  CorrectAnswer: NULL
-  AnswerTests: submit_log_two()
-  Hint: hint
+#As of March 1, 2019, I have disabled these questions in a final hope to fix this unknown bug.
+#- Class: mult_question
+#  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
+#  AnswerChoices: Yes;No
+#  CorrectAnswer: NULL
+#  AnswerTests: submit_log()
+ # Hint: hint
+
+#- Class: mult_question
+#  Output: Would you like to answer five short questions about this lesson to Google Forms so that your instructor may evaluate your opinion on this lesson and improve it for others?
+#  AnswerChoices: Yes;No
+#  CorrectAnswer: NULL
+#  AnswerTests: submit_log_two()
+#  Hint: hint
