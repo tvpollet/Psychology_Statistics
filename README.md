@@ -11,7 +11,7 @@ This course requires you also install the swirl package. Once RStudio has loaded
 
 Then, once it is installed, type "library(swirl)". To install this course, please run install_course("Psychology_Statistics"). You can also directly install from my github with install_course_github("krcarriere", "Psychology_Statistics").
 
-##For Teachers
+## For Teachers
 
 If you are a teacher looking to use this course in your classroom, please follow the following instructions.
 
@@ -22,4 +22,6 @@ If you are a teacher looking to use this course in your classroom, please follow
 3) Once you have completed these steps, follow the steps of http://swirlstats.com/swirlify/sharing.html to create a new .swc . (You'll need the swirlify package). Push the form changes + the new .swc to your fork of this repo.
 
 4) Now, have students install_course_github("yourgitname", "Psychology_Statistics"). 
+--
 
+TP: This is forked from krcarriere's Psychology course... .
